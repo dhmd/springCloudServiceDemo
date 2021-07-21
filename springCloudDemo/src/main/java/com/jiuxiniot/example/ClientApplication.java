@@ -1,5 +1,6 @@
 package com.jiuxiniot.example;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
@@ -17,6 +18,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 @ServletComponentScan
 @EnableDiscoveryClient
 @RefreshScope   //开启配置更新功能
+@MapperScan(basePackages	= {"com.jiuxiniot.example.dto.mapper"})
 public class ClientApplication {
 
     public static void main(String[] args) {
