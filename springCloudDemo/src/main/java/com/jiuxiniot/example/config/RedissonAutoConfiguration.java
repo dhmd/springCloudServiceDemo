@@ -22,9 +22,9 @@ public class RedissonAutoConfiguration {
 
     /**
      * @return org.redisson.api.RedissonClient
-     * @Author huangwb
+     * @Author dhm
      * @Description //TODO 单机模式配置
-     * @Date 2020/3/19 22:54
+     * @Date 2021/07/22 10:17
      * @Param []
      **/
     @Bean
@@ -41,9 +41,9 @@ public class RedissonAutoConfiguration {
     }
     /**
      * @return
-     * @Author huangwb
+     * @Author dhm
      * @Description //TODO 主从模式
-     * @Date  20203/19 10:54
+     * @Date  2021/07/22 10:17
      * @Param
      *
      **/
